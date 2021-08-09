@@ -18,14 +18,15 @@ export default {
 </script>
 
 <style>
-html {
-  background-image: linear-gradient(to right bottom, #6157d1, #bf65bf);
-  height: 100%;
-  background-attachment: fixed;
-}
-
 #app {
-  max-width: 560px;
-  margin: auto;
+  position: absolute;
+  width: 600px;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  background-color: rgba(128, 128, 128, 0.418);
+  padding: 30px;
+  border-radius: 10px;
 }
 </style>
