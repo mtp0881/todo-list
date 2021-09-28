@@ -205,11 +205,11 @@
 
 var canvasDiv = document.getElementById("particle-canvas");
 var options = {
-  particleColor: "#888",
+  particleColor: "#777",
   background:
     "https://raw.githubusercontent.com/JulianLaval/canvas-particle-network/master/img/demo-bg.jpg",
   interactive: true,
-  speed: "medium",
+  speed: "low",
   density: "medium",
 };
 var particleCanvas = new ParticleNetwork(canvasDiv, options);
